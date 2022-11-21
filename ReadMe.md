@@ -30,11 +30,18 @@ Navigate to the servers folder:
 ```bash
 cd .\Coordinate-provider\
 ```
+Creating virtual environment:
+```bash
+python -m venv venv
+```
 Activate python virtual environment
 ```bash
 venv\Scripts\activate
 ```
-Install dependencies,
+Install dependencies
+```bash
+ pip install -r requirements.txt
+```
 Start the server:
 ```bash
 uvicorn main:app --reload
