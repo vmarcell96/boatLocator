@@ -66,7 +66,7 @@ npm i
 ```
 Install server dependencies
 ```bash
-cd /server
+cd .\server\
 npm i
 ```
 Open a terminal and use the npm start command, this will create a build folder in the root directory, and also starts the react app and the express.js server
