@@ -60,9 +60,18 @@ From the root directory navigate to server-and-react folder:
 ```bash
 cd .\server-and-react\
 ```
-Install dependencies,
+Install front end dependencies
+```bash
+npm i
+```
+Install server dependencies
+```bash
+cd /server
+npm i
+```
 Open a terminal and use the npm start command, this will create a build folder in the root directory, and also starts the react app and the express.js server
 which is automatically connects to the coordinate provider server
+(in root directory)
 ```bash
 npm start
 ```
